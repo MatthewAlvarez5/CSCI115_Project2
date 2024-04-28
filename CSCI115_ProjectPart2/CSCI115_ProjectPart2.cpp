@@ -1,7 +1,7 @@
 /******************************************************************************
 Author(s): Matthew Alvarez, Jovani Benavides, Mateo, Nestor
 Course: CSCI 115 Project Part 2
-Assignment: 
+Assignment: Two Sum
 
 *******************************************************************************/
 #include <iostream>
