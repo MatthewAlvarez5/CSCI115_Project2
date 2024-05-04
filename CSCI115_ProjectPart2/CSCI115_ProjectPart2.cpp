@@ -62,7 +62,7 @@ int main()
 
     // fill set S with random integers
     for (int i = 0; i < n; i++) {
-        arrS.push_back(rand()%x);
+        arrS.push_back(rand()%x+1); // range 0 to x
     }
     cout << endl;
 
