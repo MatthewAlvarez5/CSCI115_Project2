@@ -1,5 +1,5 @@
 /******************************************************************************
-Author(s): Matthew Alvarez, Jovani Benavides, Mateo, Nestor
+Author(s): Matthew Alvarez, Jovani Benavides, Mateo Spina, Nestor Garcia
 Course: CSCI 115 Project Part 2
 Assignment: Two Sum
 
@@ -57,6 +57,7 @@ int main()
 
     cout << "Enter the number to find possible factors: ";
     cin >> x;
+
     vector<int> arrS; // set of integers
 
     // fill set S with random integers
