@@ -13,7 +13,7 @@ void bruteForce(vector<int>& S, int x) {
     for (int i = 0; i < S.size(); i++) { // 0 to n
         for (int j = i + 1; j < S.size(); j++) { // i+1 to n
             if (S[i] + S[j] == x) {  
-                cout << S[i] << "+" << S[j] << endl;  // print if sum to x
+                cout << S[i] << "+" << S[j] << " ";  // print if sum to x
             }
         }
     }
@@ -37,7 +37,7 @@ void efficient(vector<int>& S, int x) {
         
         // missingNum has been seen and not printed
         if (seen[missingNum] && !printed[S[i]]) {    
-            cout << S[i] << "+" << missingNum << endl;
+            cout << S[i] << "+" << missingNum << " ";
             // add both numbers to printed to avoid duplicate combinations
             printed[missingNum] = true;
             printed[S[i]] = true;
@@ -55,7 +55,7 @@ int main()
     cout << "Enter the number of integers in the set: ";
     cin >> n;
 
-    cout << "Enter the number to find possible factors: ";
+    cout << "Enter the number to find possible sums: ";
     cin >> x;
 
     vector<int> arrS; // set of integers
