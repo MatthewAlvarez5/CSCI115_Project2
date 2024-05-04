@@ -57,12 +57,13 @@ int main()
 
     cout << "Enter the number to find possible sums: ";
     cin >> x;
+    cout << "Set S has been initialized with " << n << " random Values in the range 0 to " << x << endl;
 
     vector<int> arrS; // set of integers
 
     // fill set S with random integers
     for (int i = 0; i < n; i++) {
-        arrS.push_back(rand()%x+1); // range 0 to x
+        arrS.push_back(rand()%(x+1)); // range 0 to x
     }
     cout << endl;
 
