@@ -72,6 +72,7 @@ int main()
     bruteForce(arrS, x);
     clock_t end = clock();
     cout << "\nTime taken:\t\t\t" << (double)(end - start) * 1000.0 / CLOCKS_PER_SEC << " milliseconds" << endl;
+    cout << "-------------------------------------------------------------------------------------\n";
 
     // call and time function
     cout << endl << "Efficient: \n";
